@@ -1,0 +1,20 @@
+SCENARIO latency_move_W PASS: worst 0 extra frames from controller receipt to visible response; input->render-thread frame end mean 26.17 ms, max 72.24 ms (n=5); capsule moved 1cm after mean 47 ms
+SCENARIO latency_jet_Space PASS: worst 0 extra frames from controller receipt to visible response; input->render-thread frame end mean 52.04 ms, max 177.01 ms (n=5); capsule moved 1cm after mean 53 ms
+SCENARIO latency_look_Mouse PASS: worst 0 extra frames from controller receipt to visible response; input->render-thread frame end mean 23.21 ms, max 74.37 ms (n=5)
+SCENARIO latency_camera_V PASS: worst 0 extra frames from controller receipt to visible response; input->render-thread frame end mean 11.98 ms, max 13.74 ms (n=5)
+SCENARIO latency_os_W PASS: worst 0 extra frames from controller receipt to visible response; input->render-thread frame end mean 22.16 ms, max 27.93 ms (n=5); capsule moved 1cm after mean 74 ms
+SCENARIO sequence_complete_3x PASS: all four legs finished in each of 3 runs
+SCENARIO sequence_consistent_3x PASS: spread walk 0.015s sprint 0.008s walkstop 3.8cm sprintstop 7.1cm jetH 15.6cm jetD 18.8cm hull 0.101s (worst frame 292.4 ms -> tol 0.585s / 229.7cm)
+SCENARIO mass_accel_ramp PASS: 0->95% walk speed in 1.287s (target ~1.5s)
+SCENARIO mass_decel PASS: walk stop 176cm in 0.78s, sprint stop 253cm in 0.71s
+SCENARIO jet_hop_not_flight PASS: peak 214cm, air 1.09s, distance 159cm, landing impact 835cm/s
+SCENARIO collision_perimeter PASS: sprint+jet into west wall/corner 11s: penetrating frames 0, outside-arena frames 0, final (-4635, 939, 217), wall face x=-4800
+SCENARIO collision_building PASS: sprint+jet into east building 6s: penetrating frames 0, final x 3235 (face 3400, capsule r165)
+SCENARIO collision_dock_climb PASS: ground z 302 after 2 hops in 4.2s (dock top 300), penetrating frames 0
+SCENARIO landing_impact PASS: 3m drop landed at 645 cm/s (hard above 350): pelvis slam + camera shake + speed penalty
+SCENARIO camera_modes PASS: 9 toggles via V: 3P OBS 1P 3P OBS 1P 3P OBS 1P ; wrong-view checks 0; log errors 0
+SCENARIO camera_observe_freefly PASS: observe cam flew 2287cm in 1.5s while the mech moved 0.0cm
+SCENARIO perf_stable FAIL: 2053 frames: avg 14.62 ms (68 fps), p99 84.93 ms, worst 262.05 ms, frames over 16.7 ms: 173 (GPU: NVIDIA GeForce RTX 5070 Ti)
+SCENARIO perf_engine_cost FAIL: game thread p50 3.78 / p99 28.14 ms, render thread p50 5.06 / p99 36.59 ms, GPU p50 1.65 / p99 3.99 ms
+log errors during run: 0
+SCENARIO total: 16 passed, 2 failed

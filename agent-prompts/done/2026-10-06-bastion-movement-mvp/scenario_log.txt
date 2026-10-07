@@ -1,0 +1,230 @@
+LogTemper: CAMERA mode=1
+LogTemper: Display: SCENARIO start: all (92 steps)
+LogTemper: CAMERA mode=0
+LogTemper: Display: LATENCY move_W frame=232 sim=0 torso=0 view=0 os=-1
+LogTemper: CAMERA mode=0
+LogTemper: Display: LATENCY move_W frame=330 sim=0 torso=0 view=0 os=-1
+LogTemper: CAMERA mode=0
+LogTemper: Display: LATENCY move_W frame=410 sim=0 torso=0 view=0 os=-1
+LogTemper: CAMERA mode=0
+LogTemper: Display: LATENCY move_W frame=555 sim=0 torso=0 view=0 os=-1
+LogTemper: CAMERA mode=0
+LogTemper: Display: LATENCY move_W frame=625 sim=0 torso=0 view=0 os=-1
+LogTemper: CAMERA mode=0
+LogTemper: Display: LATENCY jet_Space frame=733 sim=0 torso=0 view=0 os=-1
+LogTemper: CAMERA mode=0
+LogTemper: Display: LATENCY jet_Space frame=827 sim=0 torso=0 view=0 os=-1
+LogTemper: CAMERA mode=0
+LogTemper: Display: LATENCY jet_Space frame=938 sim=0 torso=0 view=0 os=-1
+LogTemper: CAMERA mode=0
+LogTemper: Display: LATENCY jet_Space frame=1038 sim=0 torso=0 view=0 os=-1
+LogTemper: CAMERA mode=0
+LogTemper: Display: LATENCY jet_Space frame=1149 sim=0 torso=0 view=0 os=-1
+LogTemper: CAMERA mode=0
+LogTemper: Display: LATENCY look_Mouse frame=1249 sim=-1 torso=0 view=0 os=-1
+LogTemper: CAMERA mode=0
+LogTemper: Display: LATENCY look_Mouse frame=1343 sim=-1 torso=0 view=0 os=-1
+LogTemper: CAMERA mode=0
+LogTemper: Display: LATENCY look_Mouse frame=1462 sim=-1 torso=0 view=0 os=-1
+LogTemper: CAMERA mode=0
+LogTemper: Display: LATENCY look_Mouse frame=1532 sim=-1 torso=0 view=0 os=-1
+LogTemper: CAMERA mode=0
+LogTemper: Display: LATENCY look_Mouse frame=1648 sim=-1 torso=0 view=0 os=-1
+LogTemper: CAMERA mode=0
+LogTemper: CAMERA mode=1
+LogTemper: CAMERA mode=0
+LogTemper: Display: LATENCY camera_V frame=1732 sim=-1 torso=-1 view=0 os=-1
+LogTemper: CAMERA mode=0
+LogTemper: CAMERA mode=1
+LogTemper: CAMERA mode=0
+LogTemper: Display: LATENCY camera_V frame=1866 sim=-1 torso=-1 view=0 os=-1
+LogTemper: CAMERA mode=0
+LogTemper: CAMERA mode=1
+LogTemper: CAMERA mode=0
+LogTemper: Display: LATENCY camera_V frame=1947 sim=-1 torso=-1 view=0 os=-1
+LogTemper: CAMERA mode=0
+LogTemper: CAMERA mode=1
+LogTemper: CAMERA mode=0
+LogTemper: Display: LATENCY camera_V frame=2074 sim=-1 torso=-1 view=0 os=-1
+LogTemper: CAMERA mode=0
+LogTemper: CAMERA mode=1
+LogTemper: CAMERA mode=0
+LogTemper: Display: LATENCY camera_V frame=2160 sim=-1 torso=-1 view=0 os=-1
+LogTemper: CAMERA mode=0
+LogTemper: Display: SCENARIO latency os_W: window not foreground, using PostMessage(WM_KEYDOWN)
+LogTemper: Display: LATENCY os_W frame=2305 sim=0 torso=0 view=0 os=1
+LogTemper: CAMERA mode=0
+LogTemper: Display: SCENARIO latency os_W: window not foreground, using PostMessage(WM_KEYDOWN)
+LogTemper: Display: LATENCY os_W frame=2391 sim=0 torso=0 view=0 os=1
+LogTemper: CAMERA mode=0
+LogTemper: Display: SCENARIO latency os_W: window not foreground, using PostMessage(WM_KEYDOWN)
+LogTemper: Display: LATENCY os_W frame=2543 sim=0 torso=0 view=0 os=1
+LogTemper: CAMERA mode=0
+LogTemper: Display: SCENARIO latency os_W: window not foreground, using PostMessage(WM_KEYDOWN)
+LogTemper: Display: LATENCY os_W frame=2656 sim=0 torso=0 view=0 os=1
+LogTemper: CAMERA mode=0
+LogTemper: Display: SCENARIO latency os_W: window not foreground, using PostMessage(WM_KEYDOWN)
+LogTemper: Display: LATENCY os_W frame=2763 sim=0 torso=0 view=0 os=1
+LogTemper: Display: SCENARIO wrote ../../../../../../Users/driver/Projects/temper/Saved/TemperRuns/latency.csv
+LogTemper: Display: SCENARIO latency_move_W PASS: worst 0 extra frames from controller receipt to visible response; input->render-thread frame end mean 26.17 ms, max 72.24 ms (n=5); capsule moved 1cm after mean 47 ms
+LogTemper: Display: SCENARIO latency_jet_Space PASS: worst 0 extra frames from controller receipt to visible response; input->render-thread frame end mean 52.04 ms, max 177.01 ms (n=5); capsule moved 1cm after mean 53 ms
+LogTemper: Display: SCENARIO latency_look_Mouse PASS: worst 0 extra frames from controller receipt to visible response; input->render-thread frame end mean 23.21 ms, max 74.37 ms (n=5)
+LogTemper: Display: SCENARIO latency_camera_V PASS: worst 0 extra frames from controller receipt to visible response; input->render-thread frame end mean 11.98 ms, max 13.74 ms (n=5)
+LogTemper: Display: SCENARIO latency_os_W PASS: worst 0 extra frames from controller receipt to visible response; input->render-thread frame end mean 22.16 ms, max 27.93 ms (n=5); capsule moved 1cm after mean 74 ms
+LogTemper: CAMERA mode=1
+LogTemper: Display: SCENARIO mouse: 0.04200 deg/count measured
+LogTemper: Display: SCENARIO wrote ../../../../../../Users/driver/Projects/temper/Saved/TemperRuns/movement_run1.csv
+LogTemper: Display: # run 1 summary: walk10m 2.082s (95% speed at 1.287s, peak 650.0 cm/s) stop 175.8cm/0.785s | sprint10m 2.016s (peak 785.7) stop 252.6cm/0.708s | jet peak 213.6cm air 1.091s dist 158.9cm impact 835.3cm/s stop 29.8cm | turn180 view 0.066s hull 1.760s
+LogTemper: CAMERA mode=1
+LogTemper: Display: SCENARIO mouse: 0.04200 deg/count measured
+LogTemper: Display: SCENARIO wrote ../../../../../../Users/driver/Projects/temper/Saved/TemperRuns/movement_run2.csv
+LogTemper: Display: # run 2 summary: walk10m 2.079s (95% speed at 1.288s, peak 650.0 cm/s) stop 172.4cm/0.557s | sprint10m 2.009s (peak 784.1) stop 258.0cm/0.743s | jet peak 219.3cm air 1.032s dist 162.3cm impact 833.8cm/s stop 29.9cm | turn180 view 0.082s hull 1.725s
+LogTemper: CAMERA mode=1
+LogTemper: Display: SCENARIO mouse: 0.04200 deg/count measured
+LogTemper: Display: SCENARIO wrote ../../../../../../Users/driver/Projects/temper/Saved/TemperRuns/movement_run3.csv
+LogTemper: Display: # run 3 summary: walk10m 2.066s (95% speed at 1.294s, peak 650.0 cm/s) stop 176.2cm/0.650s | sprint10m 2.007s (peak 783.6) stop 259.7cm/0.697s | jet peak 229.2cm air 0.997s dist 177.8cm impact 854.6cm/s stop 33.2cm | turn180 view 0.087s hull 1.826s
+LogTemper: Display: SCENARIO sequence_complete_3x PASS: all four legs finished in each of 3 runs
+LogTemper: Display: SCENARIO sequence_consistent_3x PASS: spread walk 0.015s sprint 0.008s walkstop 3.8cm sprintstop 7.1cm jetH 15.6cm jetD 18.8cm hull 0.101s (worst frame 292.4 ms -> tol 0.585s / 229.7cm)
+LogTemper: Display: SCENARIO mass_accel_ramp PASS: 0->95% walk speed in 1.287s (target ~1.5s)
+LogTemper: Display: SCENARIO mass_decel PASS: walk stop 176cm in 0.78s, sprint stop 253cm in 0.71s
+LogTemper: Display: SCENARIO jet_hop_not_flight PASS: peak 214cm, air 1.09s, distance 159cm, landing impact 835cm/s
+LogTemper: CAMERA mode=1
+LogTemper: Display: SCENARIO collision_perimeter PASS: sprint+jet into west wall/corner 11s: penetrating frames 0, outside-arena frames 0, final (-4635, 939, 217), wall face x=-4800
+LogTemper: Display: SCENARIO collision_building PASS: sprint+jet into east building 6s: penetrating frames 0, final x 3235 (face 3400, capsule r165)
+LogTemper: Display: SCENARIO collision_dock_climb PASS: ground z 302 after 2 hops in 4.2s (dock top 300), penetrating frames 0
+LogTemper: Display: SCENARIO landing_impact PASS: 3m drop landed at 645 cm/s (hard above 350): pelvis slam + camera shake + speed penalty
+LogTemper: CAMERA mode=0
+LogTemper: CAMERA mode=1
+LogTemper: CAMERA mode=2
+LogTemper: CAMERA mode=0
+LogTemper: CAMERA mode=1
+LogTemper: CAMERA mode=2
+LogTemper: CAMERA mode=0
+LogTemper: CAMERA mode=1
+LogTemper: CAMERA mode=2
+LogTemper: CAMERA mode=0
+LogTemper: Display: SCENARIO camera_modes PASS: 9 toggles via V: 3P OBS 1P 3P OBS 1P 3P OBS 1P ; wrong-view checks 0; log errors 0
+LogTemper: CAMERA mode=2
+LogTemper: Display: SCENARIO camera_observe_freefly PASS: observe cam flew 2287cm in 1.5s while the mech moved 0.0cm
+LogTemper: CAMERA mode=1
+LogTemper: CAMERA mode=1
+LogTemper: CAMERA mode=2
+LogTemper: CAMERA mode=0
+LogTemper: CAMERA mode=1
+LogTemper: CAMERA mode=2
+LogTemper: CAMERA mode=0
+LogTemper: CAMERA mode=1
+LogTemper: Display: PERF spike frame 54 (t~0.79s): 25.48 ms
+LogTemper: Display: PERF spike frame 55 (t~0.80s): 72.28 ms
+LogTemper: Display: PERF spike frame 56 (t~0.82s): 75.80 ms
+LogTemper: Display: PERF spike frame 57 (t~0.83s): 73.97 ms
+LogTemper: Display: PERF spike frame 58 (t~0.85s): 85.31 ms
+LogTemper: Display: PERF spike frame 59 (t~0.86s): 262.05 ms
+LogTemper: Display: PERF spike frame 60 (t~0.88s): 72.04 ms
+LogTemper: Display: PERF spike frame 61 (t~0.89s): 36.96 ms
+LogTemper: Display: PERF spike frame 140 (t~2.05s): 86.38 ms
+LogTemper: Display: PERF spike frame 245 (t~3.58s): 43.48 ms
+LogTemper: Display: PERF spike frame 246 (t~3.60s): 51.03 ms
+LogTemper: Display: PERF spike frame 247 (t~3.61s): 49.55 ms
+LogTemper: Display: PERF spike frame 248 (t~3.63s): 68.93 ms
+LogTemper: Display: PERF spike frame 249 (t~3.64s): 68.80 ms
+LogTemper: Display: PERF spike frame 250 (t~3.65s): 70.67 ms
+LogTemper: Display: PERF spike frame 251 (t~3.67s): 82.88 ms
+LogTemper: Display: PERF spike frame 252 (t~3.68s): 66.97 ms
+LogTemper: Display: PERF spike frame 253 (t~3.70s): 74.14 ms
+LogTemper: Display: PERF spike frame 254 (t~3.71s): 77.20 ms
+LogTemper: Display: PERF spike frame 255 (t~3.73s): 63.32 ms
+LogTemper: Display: PERF spike frame 458 (t~6.70s): 82.19 ms
+LogTemper: Display: PERF spike frame 459 (t~6.71s): 68.67 ms
+LogTemper: Display: PERF spike frame 460 (t~6.72s): 76.10 ms
+LogTemper: Display: PERF spike frame 461 (t~6.74s): 69.29 ms
+LogTemper: Display: PERF spike frame 462 (t~6.75s): 111.23 ms
+LogTemper: Display: PERF spike frame 463 (t~6.77s): 76.42 ms
+LogTemper: Display: PERF spike frame 464 (t~6.78s): 92.24 ms
+LogTemper: Display: PERF spike frame 465 (t~6.80s): 83.15 ms
+LogTemper: Display: PERF spike frame 639 (t~9.34s): 132.15 ms
+LogTemper: Display: PERF spike frame 640 (t~9.36s): 73.52 ms
+LogTemper: Display: PERF spike frame 641 (t~9.37s): 219.46 ms
+LogTemper: Display: PERF spike frame 642 (t~9.38s): 92.78 ms
+LogTemper: Display: PERF spike frame 643 (t~9.40s): 206.12 ms
+LogTemper: Display: PERF spike frame 814 (t~11.90s): 38.09 ms
+LogTemper: Display: PERF spike frame 815 (t~11.91s): 64.95 ms
+LogTemper: Display: PERF spike frame 816 (t~11.93s): 64.09 ms
+LogTemper: Display: PERF spike frame 817 (t~11.94s): 68.70 ms
+LogTemper: Display: PERF spike frame 818 (t~11.96s): 67.95 ms
+LogTemper: Display: PERF spike frame 819 (t~11.97s): 64.17 ms
+LogTemper: Display: PERF spike frame 820 (t~11.99s): 67.35 ms
+LogTemper: Display: PERF spike frame 821 (t~12.00s): 64.71 ms
+LogTemper: Display: PERF spike frame 822 (t~12.02s): 60.27 ms
+LogTemper: Display: PERF spike frame 823 (t~12.03s): 64.56 ms
+LogTemper: Display: PERF spike frame 824 (t~12.05s): 64.78 ms
+LogTemper: Display: PERF spike frame 979 (t~14.31s): 62.62 ms
+LogTemper: Display: PERF spike frame 980 (t~14.33s): 68.47 ms
+LogTemper: Display: PERF spike frame 981 (t~14.34s): 103.70 ms
+LogTemper: Display: PERF spike frame 982 (t~14.36s): 66.84 ms
+LogTemper: Display: PERF spike frame 983 (t~14.37s): 69.37 ms
+LogTemper: Display: PERF spike frame 984 (t~14.38s): 71.31 ms
+LogTemper: Display: PERF spike frame 985 (t~14.40s): 117.59 ms
+LogTemper: Display: PERF spike frame 986 (t~14.41s): 38.51 ms
+LogTemper: Display: PERF spike frame 1215 (t~17.76s): 36.61 ms
+LogTemper: Display: PERF spike frame 1216 (t~17.78s): 65.15 ms
+LogTemper: Display: PERF spike frame 1217 (t~17.79s): 68.11 ms
+LogTemper: Display: PERF spike frame 1218 (t~17.81s): 69.82 ms
+LogTemper: Display: PERF spike frame 1219 (t~17.82s): 70.49 ms
+LogTemper: Display: PERF spike frame 1220 (t~17.83s): 95.28 ms
+LogTemper: Display: PERF spike frame 1221 (t~17.85s): 75.74 ms
+LogTemper: Display: PERF spike frame 1222 (t~17.86s): 83.98 ms
+LogTemper: Display: PERF spike frame 1223 (t~17.88s): 67.74 ms
+LogTemper: Display: PERF spike frame 1224 (t~17.89s): 65.13 ms
+LogTemper: Display: PERF spike frame 1413 (t~20.66s): 66.51 ms
+LogTemper: Display: PERF spike frame 1414 (t~20.67s): 69.34 ms
+LogTemper: Display: PERF spike frame 1415 (t~20.68s): 65.98 ms
+LogTemper: Display: PERF spike frame 1416 (t~20.70s): 70.54 ms
+LogTemper: Display: PERF spike frame 1417 (t~20.71s): 64.35 ms
+LogTemper: Display: PERF spike frame 1418 (t~20.73s): 64.65 ms
+LogTemper: Display: PERF spike frame 1419 (t~20.74s): 72.98 ms
+LogTemper: Display: PERF spike frame 1420 (t~20.76s): 77.75 ms
+LogTemper: Display: PERF spike frame 1421 (t~20.77s): 74.99 ms
+LogTemper: Display: PERF spike frame 1422 (t~20.79s): 114.06 ms
+LogTemper: Display: PERF spike frame 1632 (t~23.86s): 38.00 ms
+LogTemper: Display: PERF spike frame 1633 (t~23.87s): 72.44 ms
+LogTemper: Display: PERF spike frame 1634 (t~23.89s): 73.57 ms
+LogTemper: Display: PERF spike frame 1635 (t~23.90s): 64.58 ms
+LogTemper: Display: PERF spike frame 1636 (t~23.92s): 67.02 ms
+LogTemper: Display: PERF spike frame 1637 (t~23.93s): 66.63 ms
+LogTemper: Display: PERF spike frame 1638 (t~23.94s): 63.67 ms
+LogTemper: Display: PERF spike frame 1639 (t~23.96s): 77.53 ms
+LogTemper: Display: PERF spike frame 1640 (t~23.97s): 80.33 ms
+LogTemper: Display: PERF spike frame 1641 (t~23.99s): 75.22 ms
+LogTemper: Display: PERF spike frame 1652 (t~24.15s): 38.65 ms
+LogTemper: Display: PERF spike frame 1653 (t~24.16s): 64.39 ms
+LogTemper: Display: PERF spike frame 1654 (t~24.18s): 84.93 ms
+LogTemper: Display: PERF spike frame 1739 (t~25.42s): 27.47 ms
+LogTemper: Display: PERF spike frame 1760 (t~25.73s): 50.23 ms
+LogTemper: Display: PERF spike frame 1762 (t~25.76s): 25.18 ms
+LogTemper: Display: PERF spike frame 1783 (t~26.06s): 31.65 ms
+LogTemper: Display: PERF spike frame 1794 (t~26.23s): 31.20 ms
+LogTemper: Display: PERF spike frame 1803 (t~26.36s): 41.75 ms
+LogTemper: Display: PERF spike frame 1804 (t~26.37s): 44.14 ms
+LogTemper: Display: PERF spike frame 1808 (t~26.43s): 34.27 ms
+LogTemper: Display: PERF spike frame 1831 (t~26.77s): 25.28 ms
+LogTemper: Display: PERF spike frame 1840 (t~26.90s): 71.89 ms
+LogTemper: Display: PERF spike frame 1841 (t~26.91s): 70.06 ms
+LogTemper: Display: PERF spike frame 1842 (t~26.93s): 129.95 ms
+LogTemper: Display: PERF spike frame 1843 (t~26.94s): 94.22 ms
+LogTemper: Display: PERF spike frame 1844 (t~26.96s): 96.59 ms
+LogTemper: Display: PERF spike frame 1845 (t~26.97s): 78.18 ms
+LogTemper: Display: PERF spike frame 1846 (t~26.99s): 77.31 ms
+LogTemper: Display: PERF spike frame 1847 (t~27.00s): 140.65 ms
+LogTemper: Display: PERF spike frame 2031 (t~29.69s): 74.49 ms
+LogTemper: Display: PERF spike frame 2032 (t~29.70s): 71.42 ms
+LogTemper: Display: PERF spike frame 2033 (t~29.72s): 130.06 ms
+LogTemper: Display: PERF spike frame 2034 (t~29.73s): 137.96 ms
+LogTemper: Display: PERF spike frame 2035 (t~29.75s): 63.53 ms
+LogTemper: Display: PERF spike frame 2036 (t~29.76s): 185.40 ms
+LogTemper: Display: PERF spike frame 2037 (t~29.78s): 48.27 ms
+LogTemper: Display: SCENARIO wrote ../../../../../../Users/driver/Projects/temper/Saved/TemperRuns/perf_frames.csv
+LogTemper: Display: SCENARIO perf_stable FAIL: 2053 frames: avg 14.62 ms (68 fps), p99 84.93 ms, worst 262.05 ms, frames over 16.7 ms: 173 (GPU: NVIDIA GeForce RTX 5070 Ti)
+LogTemper: Display: SCENARIO perf_engine_cost FAIL: game thread p50 3.78 / p99 28.14 ms, render thread p50 5.06 / p99 36.59 ms, GPU p50 1.65 / p99 3.99 ms
+LogTemper: Display: SCENARIO wrote ../../../../../../Users/driver/Projects/temper/Saved/TemperRuns/summary.txt
+LogTemper: Display: SCENARIO total: 16 passed, 2 failed
