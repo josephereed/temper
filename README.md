@@ -11,6 +11,11 @@ Requires UE 5.8 and Visual Studio 2022 (or Build Tools) with the C++ game worklo
 "C:\Program Files\Epic Games\UE_5.8\Engine\Build\BatchFiles\Build.bat" TemperEditor Win64 Development -Project="%CD%\Temper.uproject" -WaitMutex
 ```
 
+Under Throttle (the job scheduler on Joseph's PC), cap the compile to the job's live thread
+allowance: add `-MaxParallelActions=N` with N from `throttle-threads`, e.g. from Git Bash
+`... -WaitMutex -MaxParallelActions=$(throttle-threads)`. Run several editor or `-game` instances
+at once only if `throttle-threads --per 6 --mem 6` allows that many. Outside Throttle nothing changes.
+
 If another UE 5.8 editor is open, UBT refuses with "Unable to build while Live Coding is active";
 add `-NoHotReloadFromIDE` (safe: it only skips that engine-wide check).
 
